@@ -263,5 +263,5 @@ $
 
 ## Authors & Copyrights
 
-* Jonathan Abayie Boahene <[babashehu01](https://github.com/babashehu01)>
+* Babashehu Shettima Musti <[babashehu01](https://github.com/babashehu01)>
 * Salami Ayomide Johnson <[Royalboe](https://github.com/Royalboe)>
