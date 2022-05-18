@@ -1,0 +1,35 @@
+.TH "simple_shell" 1 "May 2022" "ALX"
+.SH NAME
+simple_shell - a shell (standard command line interpreter)
+.SH SYNOPSIS
+./shell [-options] [argument ...]
+
+.SH DESCRIPTION
+This ./shell program is a simulation of the Real Shell. /shell is written in C. Shell is a program that takes commands form the keyboard and gives them to the operating system to perform.
+./shell works eiter in interactive or non-interactive mode, it executes commands based on the input.
+
+Builtin commands are part of the shell itself and they are executed directly in the shell. However, external commands they need to be located in PATH, load and run. 
+In interactive mode, the shell will prompt with "$", and proess the entered input upon a return stroke.  In non-interactive mode, standard output must be piped into the executable.
+
+.SH USAGE
+In addition to searching the path, the following features are supported.
+.IP "exit - Exit shell with a specified exit status"
+.IP "env - Print a list of the environment variables"
+.IP "Ctrl-D - End of file: exit shell"
+.IP "Ctrl-C - Does NOT exit shell"
+
+.SH EXAMPLE USAGE
+cd -
+env
+ls -l
+
+.SH LIMITATIONS
+.IP "-Handle single commans without arguments"
+.IP "-Support commands with arguments"
+.IP "-No piping, redirection or special characters are supported"
+.IP "-Only builtins: exit, help, evn" 
+.IP"-support CTRL + D"
+.SH BUGS
+No known bugs at this time.
+.SH AUTHORS
+Babashehu Shettima Musti and Salami Ayomide Johnson 
