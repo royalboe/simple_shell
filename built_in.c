@@ -67,7 +67,8 @@ int builtin(char **args, char *user_input)
 	if (build == NULL)
 		return (-1);
 	if (_strcmp("exit", args[0]) == 0)
-		_free2(command);
+		/* freed args instead of command */
+		_free2(args);
 	build(user_input);
 	return (0);
 }
