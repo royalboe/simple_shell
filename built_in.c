@@ -1,7 +1,8 @@
 #include "shell.h"
 
 /**
- * env_cmd - A function that prints all the environmental variables in the current shell.
+ * env_cmd - A function that prints all the environmental
+ * variables in the current shell.
  * @user_input: A string representing the input from the user.
  */
 void env_cmd(__attribute__((unused))char *user_input)
